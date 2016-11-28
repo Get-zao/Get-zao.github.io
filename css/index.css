@@ -19,9 +19,9 @@
   font-weight: normal;
   font-style: normal;
 }
-/*---------------------------------------------------------
- 1. Reset
--------------------------------------------------------- */
+
+/* Reset*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -158,9 +158,7 @@ textarea {
 }
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 
-/*---------------------------------------------------------
- 2. Basic Style
--------------------------------------------------------- */
+/*Basic Style*/
 body {
   font-size: 14px;
   line-height: 24px;
@@ -272,15 +270,14 @@ input[type="submit"].default,
 }
 
 h2.subtitle {
+	color: #fff;
   font-size: 32px;
   font-family: 'robotobold';
   text-transform: uppercase;
   margin-bottom: 60px;
 }
 
-/*---------------------------------------------------------
- 3. Header
--------------------------------------------------------- */
+ /*3. Header*/
 .site-header {
   position: relative;
   z-index: 10;
@@ -413,9 +410,7 @@ h2.subtitle {
   background: rgba(138, 155, 162, 0.4);
 }
 
-/*---------------------------------------------------------
- 4. Main Content
--------------------------------------------------------- */
+ /*4. Main Content*/
 /*------ home ------ */
 .home-section {
   margin: 110px 0;
@@ -432,6 +427,9 @@ h2.subtitle {
   font-family: 'robotolight';
   padding: 0 70px;
 }
+.home-section p.description .blue{
+	font-size: 30px;
+}
 @media screen and (max-width: 768px) {
   .home-section p.description {
     padding: 0;
@@ -446,21 +444,12 @@ h2.subtitle {
   font-family: 'robotobold';
   margin-bottom: 30px;
 }
-.subscribe-form input[type="email"] {
-  width: 44%;
-  height: 40px;
-  background: rgba(255, 255, 255, 0.05);
-  outline: 0;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 10px;
-  font-size: 13px;
-  margin-bottom: 30px;
+.subscribe-form .small{
+	margin-top: 200px;
+ 	font-size: 20px;
+ 	color: orange;
 }
-@media screen and (max-width: 992px) {
-  .subscribe-form input[type="email"] {
-    width: 80%;
-  }
-}
+
 .subscribe-form .button-holder {
   margin-bottom: 30px;
 }
@@ -642,7 +631,7 @@ h2.subtitle {
     padding: 10px 20px;
   }
 }
-.contact-form .input-holder input[type="text"], .contact-form .input-holder input[type="email"], .contact-form .input-holder textarea {
+.contact-form .input-holder input[type="text"], .contact-form .input-holder textarea {
   position: relative;
   z-index: 10;
   height: 70px;
@@ -658,7 +647,7 @@ h2.subtitle {
   color: white;
 }
 @media screen and (max-width: 768px) {
-  .contact-form .input-holder input[type="text"], .contact-form .input-holder input[type="email"], .contact-form .input-holder textarea {
+  .contact-form .input-holder input[type="text"], .contact-form .input-holder textarea {
     margin-bottom: 40px;
     padding-left: 30px;
     height: 40px;
@@ -741,4 +730,36 @@ h2.subtitle {
 .contact-block p {
   margin-top: 25px;
 }
+#name{
+	width: 200px;
+	height: 100px;
+	background: rgba(255,255,255,0.1);
+	text-align: center;
+	line-height: 100px;
+	color: #fff;
+	font-size: 14px;
+	border: 1px solid #fff;
+}
+
+#email{
+		width: 200px;
+		height: 100px;
+		background: rgba(255,255,255,0.1);
+		text-align: center;
+		line-height: 100px;
+		color: #fff;
+		font-size: 14px;
+		border: 1px solid #fff;
+	
+}
+
+
+
+
+
+
+
+
+
+
 
