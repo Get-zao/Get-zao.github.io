@@ -550,11 +550,13 @@ h2.subtitle {
   }
 }
 .project-block .thumb-it {
+	height: 170px;
   border: 1px solid white;
   overflow: hidden;
   position: relative;
   z-index: 20;
   margin-right: 60px;
+  overflow: hidden;
 }
 .project-block .thumb-it img {
   width: 100%;
